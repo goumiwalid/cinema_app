@@ -6,7 +6,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.figure_factory as ff
-import matplotlib.pyplot as plt
 import streamlit as st
 import folium
 from folium import plugins
