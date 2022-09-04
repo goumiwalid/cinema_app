@@ -35,7 +35,7 @@ with st.sidebar:
 
     st.markdown('##')
 
-    st.markdown("Cette appplication explore les données des cinémas de la France métropolitaine. Elle présente les statistiques, la distribution des variables retenues et une carte intéractive.<br></br> Réalisée par <strong style=color:#FF1919;> Walid GOUMI</strong>",unsafe_allow_html=True)
+    st.markdown("Cette application explore les données des cinémas de la France métropolitaine. Elle présente les statistiques, la distribution des variables retenues et une carte interactive.<br></br> Réalisée par <strong style=color:#FF1919;> Walid GOUMI</strong>",unsafe_allow_html=True)
 
     st.markdown('##')
 
