@@ -11,12 +11,13 @@ import folium
 from folium import plugins
 from streamlit_folium import st_folium
 from PIL import Image
+import openpyxl
 
 #Configuration de l'appication Streamlit : Titre, icône, mise en page
 st.set_page_config(page_title="Cinémas de France", page_icon="🍿", layout="centered")
 
 #Import du jeu de données 
-dataset = pd.read_excel("dataset.xlsx")
+dataset = pd.read_excel("dataset.xlsx", engine="openpyxl")
 
 
 #Ce sidebar contient le menu et une brève description de l'application 
