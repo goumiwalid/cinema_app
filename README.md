@@ -1,2 +1,2 @@
 # cinema_app
-An application for analyzing and exploring french movie theaters 
+An application for analyzing and exploring french movie theaters made with Python
